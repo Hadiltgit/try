@@ -6,14 +6,17 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class TryTest {
-
+    
+	Try a;
+	
 	@BeforeEach
 	void setUp() throws Exception {
+		a = new Try();
 	}
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		assertEquals(1,Try.game());
 	}
 
 }
