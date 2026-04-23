@@ -52,6 +52,15 @@ class TryTest {
 		assertEquals("buzz",a.game());
 	}
 	
+	@Test
+	void iter6Test() {
+		apply(6);
+		assertEquals("7",a.game());
+		assertEquals("8",a.game());
+		apply(2);
+		assertEquals("11",a.game());
+	}
+	
 	
 
 }
