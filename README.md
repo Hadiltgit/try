@@ -46,7 +46,7 @@ Le backlog
 
 \- \[x] Le 6e, 12e, 15e doivent répondre “Fizz” → ITER 7
 
-\- \[ ] Le 10e, 20e, 50e doivent répondre “Buzz” → ITER 8
+\- \[x] Le 10e, 20e, 50e doivent répondre “Buzz” → ITER 8
 
 \- \[ ] Le 15e doit répondre “FizzBuzz” → ITER 9
 

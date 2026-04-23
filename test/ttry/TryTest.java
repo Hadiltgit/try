@@ -71,6 +71,16 @@ class TryTest {
 		assertEquals("fizz",a.game());//15
 	}
 	
+	@Test
+	void iter8Test() {
+		apply(9);
+		assertEquals("buzz",a.game());//10
+		apply(9);
+		assertEquals("buzz",a.game());//20
+		apply(29);
+		assertEquals("buzz",a.game());//50
+	}
+	
 	
 
 }
