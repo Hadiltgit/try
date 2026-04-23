@@ -36,7 +36,7 @@ Le backlog
 
 \- \[x] Le second doit répondre “2” → ITER 2
 
-\- \[ ] Le troisième doit répondre “Fizz” → ITER 3
+\- \[x] Le troisième doit répondre “Fizz” → ITER 3
 
 \- \[ ] Le 4e doit répondre “4” → ITER 4
 

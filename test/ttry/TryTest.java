@@ -16,13 +16,20 @@ class TryTest {
 
 	@Test
 	void iter1Test() {
-		assertEquals(1,a.game());
+		assertEquals("1",a.game());
 	}
 
 	@Test
 	void iter2Test() {
 		a.game();
-		assertEquals(2,a.game());
+		assertEquals("2",a.game());
+	}
+	
+	@Test
+	void iter3Test() {
+		a.game();
+		a.game();
+		assertEquals("fizz",a.game());
 	}
 
 }
