@@ -32,4 +32,20 @@ class TryTest {
 		assertEquals("fizz",a.game());
 	}
 
+	
+	void apply(int nbr) {
+		for (int i = 0 ; i < nbr ; i++) {
+			a.game();
+		}
+	}
+	
+	
+	@Test
+	void iter4Test() {
+		 apply(3);
+		assertEquals("4",a.game());
+	}
+	
+	
+
 }
