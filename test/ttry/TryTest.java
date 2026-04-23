@@ -85,6 +85,38 @@ class TryTest {
 		assertEquals("fizzbuzz",a.game());//15
 	}
 	
-	
+	@Test
+	void iter10Test() {
+		assertEquals("1",a.game());
+		assertEquals("2",a.game());
+		assertEquals("fizz",a.game());
+		assertEquals("4",a.game());
+		assertEquals("buzz",a.game());
+		assertEquals("fizz",a.game());
+		assertEquals("7",a.game());
+		assertEquals("8",a.game());
+		assertEquals("fizz",a.game());
+		assertEquals("buzz",a.game());
+		assertEquals("11",a.game());
+		assertEquals("fizz",a.game());
+		assertEquals("13",a.game());
+		assertEquals("14",a.game());
+		assertEquals("fizzbuzz",a.game());
+		assertEquals("16",a.game());
+		assertEquals("17",a.game());
+		assertEquals("fizz",a.game());
+		assertEquals("19",a.game());
+		assertEquals("buzz",a.game());
+		assertEquals("fizz",a.game());
+		assertEquals("22",a.game());
+		assertEquals("23",a.game());
+		assertEquals("fizz",a.game());
+		assertEquals("buzz",a.game());
+		assertEquals("26",a.game());
+		assertEquals("fizz",a.game());
+		assertEquals("28",a.game());
+		assertEquals("29",a.game());
+		assertEquals("fizzbuzz",a.game());
+	}
 
 }
