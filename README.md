@@ -48,7 +48,7 @@ Le backlog
 
 \- \[x] Le 10e, 20e, 50e doivent répondre “Buzz” → ITER 8
 
-\- \[ ] Le 15e doit répondre “FizzBuzz” → ITER 9
+\- \[x] Le 15e doit répondre “FizzBuzz” → ITER 9
 
 \- \[ ] Les 30 premiers coups doivent produire une partie qui ressemble à :
 
