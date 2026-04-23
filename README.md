@@ -32,7 +32,7 @@
 
 Le backlog
 
-\- \[ ] Le premier doit répondre “1” → ITER 1
+\- \[x] Le premier doit répondre “1” → ITER 1
 
 \- \[ ] Le second doit répondre “2” → ITER 2
 
