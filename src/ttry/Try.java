@@ -1,10 +1,12 @@
 package ttry;
 
 public class Try {
+	
+	int result = 0;
 
-	public static Integer game() {
-		
-		return 1;
+	public int game() {
+		result +=1;
+		return result;
 	}
 
 }

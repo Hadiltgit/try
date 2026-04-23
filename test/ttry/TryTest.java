@@ -15,8 +15,14 @@ class TryTest {
 	}
 
 	@Test
-	void test() {
-		assertEquals(1,Try.game());
+	void iter1Test() {
+		assertEquals(1,a.game());
+	}
+
+	@Test
+	void iter2Test() {
+		a.game();
+		assertEquals(2,a.game());
 	}
 
 }
