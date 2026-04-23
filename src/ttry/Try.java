@@ -10,16 +10,15 @@ public class Try {
 	public String game() {
 		result +=1;
 		
-		String resul = String.format("%d", result);
 		
 		for(int i = 0 ; i < magicValues.length ; i++) {
-			
-			if(    resul.equals( magicValues[i])    ) {
+			int a = Integer.parseInt(magicValues[i]) ;
+			if(   result %   a  == 0    ) {
 				return magicKeys[i];
 			}
 		}
 		
-		return resul;
+		return String.format("%d", result);
 	}
 
 }
